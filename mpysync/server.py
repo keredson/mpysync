@@ -12,10 +12,12 @@ except:
   import asyncio
   ON_BOARD = False
   
-try:
-  from uttp import App, HTTPException
-except ImportError:
-  pass
+
+if 'App' not in globals():
+  try:
+    from uttp import App, HTTPException
+  except ImportError:
+    from .uttp import App, HTTPException
   
 
 BUF_SIZE = 2048
