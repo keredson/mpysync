@@ -4,7 +4,7 @@ Rsync-like tool for [MicroPython](https://micropython.org/).
 
 - Works over serial or WiFi.
 - Can be run (as an async task) in the background of your normal app (for remote updates).
-- Generally 10-100x faster than using `ampy`.
+- Generally 10-100x faster than using [Adafruit's Ampy](https://pypi.org/project/adafruit-ampy/).
 
 ## Install
 
