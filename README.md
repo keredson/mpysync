@@ -6,6 +6,12 @@ Rsync-like tool for [MicroPython](https://micropython.org/).
 - Can be run (as an async task) in the background of your normal app (for remote updates).
 - Generally 10-100x faster than using `ampy`.
 
+## Install
+
+```
+$ pip install mpysync
+```
+
 ## Performance
 Take for example, a decently sized project (50 files, 836K) on an ESP32...
 
