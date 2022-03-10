@@ -73,4 +73,4 @@ asyncio.get_event_loop().run_forever()
 By default it listens on port 31261.
 
 ### Memory
-When running in the background (for OTA updates), `mpysync` consumes 22k RAM.
+When running in the background (for OTA updates), `mpysync` consumes 16k RAM if you're already using uttp, 20k otherwise.
