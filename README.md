@@ -48,3 +48,6 @@ python mpysync.py build/ --host 10.0.0.179
 ```
 python mpysync.py [--directory <str>] [--host <str>] [--port <value>] [--baud <int>] [--dry_run <bool>] [--clear_cache <bool>] [--verify <bool>]
 ```
+
+## Memory
+When running in the background (for OTA updates), `mpysync` consumes 22k RAM.
