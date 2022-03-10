@@ -10,14 +10,15 @@ def long_description():
 
 setup(
   name='mpysync',
-  version='0.1.1',
+  version='0.2.0',
   description='Rsync-like tool for MicroPython.',
 #  long_description=long_description(),
 #  long_description_content_type="text/markdown",
   author='Derek Anderson',
   author_email='public@kered.org',
   url='https://github.com/keredson/mpysync',
-  py_modules=['mpysync'],
+  packages=['mpysync'],
+  requires=['adafruit_ampy', 'darp', 'requests'],
   classifiers=[
     'Development Status :: 4 - Beta',
     'Intended Audience :: Developers',
