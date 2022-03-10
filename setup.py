@@ -10,7 +10,7 @@ def long_description():
 
 setup(
   name='mpysync',
-  version='0.2.0',
+  version='0.2.1',
   description='Rsync-like tool for MicroPython.',
 #  long_description=long_description(),
 #  long_description_content_type="text/markdown",
