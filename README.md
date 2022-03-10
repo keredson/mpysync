@@ -60,7 +60,7 @@ python -m mpysync [--directory <str>] [--host <str>] [--port <value>] [--baud <i
 In your `main.py` or (or anywhere really):
 
 ```
-import mpysync
+import mpysync.server
 ```
 
 Then (somewhere later in your code), start the main event loop:
